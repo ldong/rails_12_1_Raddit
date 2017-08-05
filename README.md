@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+gem install devise
+rails generate devise:install
 
-Things you may want to cover:
+rails g devise User
+rails db:migrate
 
-* Ruby version
+http://localhost:3000/users/sign_up
+http://localhost:3000/users/sign_in
 
-* System dependencies
 
-* Configuration
+rails c
+User.count
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
