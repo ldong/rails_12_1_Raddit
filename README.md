@@ -1,5 +1,11 @@
 # README
 
+How to build a Reddit or Hacker News Style Web App in Rails 4?
+
+Link: https://www.youtube.com/watch?v=7-1HCWbu7iU&list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-&index=1
+
+Src: https://github.com/mackenziechild/raddit/blob/master/app/models/user.rb#L4
+
 ```
 gem install devise
 rails generate devise:install
